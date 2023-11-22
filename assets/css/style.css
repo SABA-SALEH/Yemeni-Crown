@@ -16,3 +16,7 @@ body {
 .navbar-brand {
     color: #3c3c3c;
 }
+
+.fixed-top {
+    position: fixed;
+}
