@@ -1,5 +1,6 @@
 body {
-    background-color: #000;
+    background-color: #FF8C00;
+    color: aqua;
 }
 
 .navbar {
@@ -19,4 +20,58 @@ body {
 
 .fixed-top {
     position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* footer */
+
+.footer {
+    background-color: #3c3c3c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #70726F;
+    font-size: 25px;
+    padding: 10px;
+    transition: all .5s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+/* section1 */
+
+.section1 {
+    min-height: 300px;
+    background-image: url(assets/images/background.jpg) center/cover no-repeat;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section1 h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.section1 p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.section1 .title .section1 .text {
+    z-index: 1;
 }
