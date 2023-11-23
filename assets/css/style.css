@@ -1,17 +1,17 @@
 body {
     background-color: black;
-    color: darkorange;
+    color: #9BA4B5;
     font-family: 'Lilita One', cursive;
 
 }
 
 .navbar {
-    background-color: #3c3c3c;
+    background-color: #212A3E;
     margin-bottom: 300px;
 }
 
 .navbar-nav a {
-    color: #70726F;
+    color: #9BA4B5;
     margin: 0 15px;
     padding: 15px 0;
 }
@@ -30,14 +30,14 @@ body {
 /* footer */
 
 .footer {
-    background-color: #3c3c3c;
-    color: #fff;
+    background-color: #212A3E;
+    color: #9BA4B5;
     text-align: center;
     padding: 20px 0;
 }
 
 .footer a {
-    color: #70726F;
+    color: #9BA4B5;
     font-size: 25px;
     padding: 10px;
     transition: all .5s ease;
@@ -65,21 +65,23 @@ body {
 
 .section1 h2 {
     font-size: 3em;
-    margin-bottom: 20px;
-    color: #3c3c3c;
+    margin-bottom: 15px;
+    color: #212A3E;
+    text-transform: uppercase;
 }
 
 .section1 p {
     font-size: 2em;
     margin-bottom: 30px;
-    color: #ffa500;
+    color: #394867;
+    text-transform: uppercase;
 }
 
 .section1 .btn {
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 1em;
-    color: #3c3c3c;
+    color: #212A3E;
 }
 
 
@@ -88,24 +90,35 @@ body {
 
 .section2 {
 
-    background-color: #70726F;
+    background-color: #394867;
     padding: 30px 0;
 }
 
 .section2 h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.section2 h4 {
+    color: #394867;
+}
+
+.section2 p {
+    color: #212A3E;
 }
 
 .section2 .cards {
-    background-color: #fff;
+    background-color: #9BA4B5;
     margin: 20px;
     padding: 30px;
     border-radius: 10px;
 }
 
 .section2 i {
-    color: #ffa500;
+    color: #212A3E;
     margin-bottom: 5px;
 }
 
@@ -114,11 +127,26 @@ body {
 
 .section3 {
 
-    background-color: #404342c8;
+    background-color: #212A3E;
     padding: 30px 0;
 }
 
 .section3 h2 {
     font-size: 2.5em;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* section 4 */
+
+.section4 {
+
+    background-color: #394867;
+    padding: 30px 0;
+}
+
+.section4 h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
