@@ -48,30 +48,50 @@ body {
 /* section1 */
 
 .section1 {
-    min-height: 300px;
-    background-image: url(assets/images/background.jpg) center/cover no-repeat;
-    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: ("assets/images/background.jpg") center/cover no-repeat;
+    padding: 5px 0;
+    min-height: 500px;
+    margin-top: 56px;
+    width: 100%;
+    animation-name: background-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes background-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .section1 h2 {
     font-size: 2.5em;
-    margin-bottom: 30px;
-    text-align: center;
-
+    margin-bottom: 20px;
 }
 
 .section1 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 30px;
-    text-align: center;
-
 }
 
-.section1 .title .section1 .text {
+.section1 .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.section1 .title,
+.section1 .text,
+.section1 .btn {
     z-index: 1;
 }
