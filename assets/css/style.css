@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: darkorange;
+    font-family: 'Lilita One', cursive;
 
 }
 
@@ -56,26 +57,29 @@ body {
     text-align: center;
     color: #fff;
     padding: 5px 0;
-    min-height: 400px;
+    min-height: 500px;
     margin-top: 56px;
 
 }
 
 
 .section1 h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 20px;
+    color: #3c3c3c;
 }
 
 .section1 p {
-    font-size: 1.2em;
+    font-size: 2em;
     margin-bottom: 30px;
+    color: #ffa500;
 }
 
 .section1 .btn {
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 1em;
+    color: #3c3c3c;
 }
 
 
