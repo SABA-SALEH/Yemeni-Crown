@@ -1,6 +1,6 @@
 body {
-    background-color: #FF8C00;
-    color: aqua;
+    background-color: black;
+    color: darkorange;
 }
 
 .navbar {
@@ -54,25 +54,17 @@ body {
     justify-content: center;
     text-align: center;
     color: #fff;
-    background-color: ("assets/images/background.jpg") center/cover no-repeat;
+    background-image: url("assets/images/background.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5px 0;
     min-height: 500px;
     margin-top: 56px;
-    width: 100%;
-    animation-name: background-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+
 }
 
-@keyframes background-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
 
 .section1 h2 {
     font-size: 2.5em;
