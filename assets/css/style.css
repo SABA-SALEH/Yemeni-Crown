@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #394867;
     color: #9BA4B5;
     font-family: 'Lilita One', cursive;
 
@@ -137,7 +137,7 @@ body {
     text-transform: uppercase;
 }
 
-/* section 4 */
+/* section 4 (join our mailing list) */
 
 .section4 {
 
@@ -149,4 +149,95 @@ body {
     font-size: 2.5em;
     margin-bottom: 30px;
     text-transform: uppercase;
+}
+
+.section4 .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.section4 label {
+    color: #212A3E;
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* go to top */
+
+.go-to-top {
+
+    color: #9BA4B5;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
+
+/* menu section */
+
+.menu-section {
+    background-color: #394867;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section-heading {
+    color: #9BA4B5;
+
+    margin-top: 30px;
+    font-size: 3em;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-category h3 {
+    color: #212A3E;
+    border-bottom: 1px solid #212A3E;
+    padding: 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-details {
+    flex: 1;
+    margin-right: 10px;
+
+}
+
+
+.dish {
+
+    color: #212A3E;
+    text-align: left;
+}
+
+.dish-description {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+    color: #9BA4B5;
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+    margin: 10px 0;
+
+
+}
+
+.price {
+    color: #212A3E;
+}
+
+.dish-image {
+    max-width: 100px;
+    height: 100px;
+    margin-right: 10px;
 }
