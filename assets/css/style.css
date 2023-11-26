@@ -242,3 +242,64 @@ body {
     height: 120px;
     margin-right: 10px;
 }
+
+/*About Us section*/
+
+
+.about-section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0;
+    min-height: 500px;
+    margin-top: 56px;
+
+}
+
+
+.about-section1 .title {
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #212A3E;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-section1 .text {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #212A3E;
+    text-transform: uppercase;
+}
+
+/*.............................................*/
+.about-section2 {
+
+    background-color: #9BA4B5;
+    padding: 30px 0;
+}
+
+.about-section2 h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.about-section2 h4 {
+    color: #394867;
+}
+
+.about-section2 p {
+    color: #212A3E;
+}
+
+.about-section2 .card {
+    background-color: #9BA4B5;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
