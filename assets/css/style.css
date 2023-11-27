@@ -95,6 +95,10 @@ body {
     background-color: #D3A121;
 }
 
+.section1 .btn:hover {
+    background-color: #daaf45;
+
+}
 
 
 /* section 2 */
@@ -183,6 +187,11 @@ body {
     background-color: #D3A121;
 }
 
+.section4 .btn:hover {
+    background-color: #daaf45;
+
+}
+
 /* go to top */
 
 .go-to-top {
@@ -245,7 +254,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-size: 1em;
-    color:#0B0B0B;
+    color: #0B0B0B;
     text-align: left;
     justify-content: left;
     justify-items: left;
@@ -255,7 +264,8 @@ body {
 }
 
 .price {
-    color: #212A3E;
+    color: #D3A121;
+    font-size: 1.5em;
 }
 
 .dish-image {
@@ -342,4 +352,69 @@ body {
     .about-section2 .col-md-4 {
         margin-bottom: 20px;
     }
+}
+
+
+/* Reservations Section */
+
+
+.reservations-section {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #FAF4E4;
+    color: #D3A121;
+}
+
+.reservations-section h2 {
+
+    margin-top: 30px;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #D3A121;
+}
+
+.reservations-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #0B0B0B;
+}
+
+.reservations-section form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.reservations-section .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.reservations-section label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #D3A121;
+
+}
+
+.reservations-section .form-control {
+    border-radius: 30px;
+    padding: 10px 12px;
+}
+
+.reservations-section .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #D3A121;
+    color: #0B0B0B;
+    border: none;
+    cursor: pointer;
+}
+
+.reservations-section .btn:hover {
+    background-color: #daaf45;
+
 }
