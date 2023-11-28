@@ -1,39 +1,105 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yemeni Crown Website
 
-Welcome,
+Welcome to the README for the Yemeni Crown website. This document provides an overview of the project, its features, and instructions on getting started.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The Yemeni Crown website is a platform that showcases the restaurant, its menu, and facilitates reservations. This website aims to provide a delightful online experience for users interested in exploring and engaging with Yemeni Crown.
 
-## Codeanywhere Reminders
+**Technologies Used:**
+- HTML
+- CSS (Bootstrap)
+- JavaScript
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## UX and UI
 
-`python3 -m http.server`
+### User Experience Design
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+In the development of Yemeni Crown, we focused on the following aspects of the 5 planes of UX design:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- **Project and Customer Goals:**
+  - Business Goal:
+    - Establish an online presence to attract a wider audience and increase brand visibility for Yemeni Crown.
+  - User Stories:
+    - As a user, I want to discover authentic Yemeni dishes and learn about their cultural significance.
+    - As a customer, I want a simple and efficient reservation process, enhancing my overall dining experience.
+    - As a potential customer, I want a straightforward online ordering system to enjoy Yemeni cuisine from the comfort of my home.
 
-`http_server`
+- **Features:**
+  - Responsive Design: Ensures a seamless experience across various devices, including desktops, tablets, and mobile phones.
+  - Menu Display: Showcases the restaurant's diverse menu with high-quality images, detailed descriptions, and prices for each dish.
+  - Reservation Form: Allows users to conveniently make reservations online, providing a user-friendly interface to select preferred date, time, and number of guests.
+  - Contact and Location: Offers detailed contact information, including a contact form for inquiries, and displays the restaurant's location on an interactive map for easy navigation.
+  - Welcome Section: Engages visitors with a welcoming home page featuring an "Order Online" button, creating a smooth pathway for online orders.
+  - About Yemeni Crown: Provides insights into the rich history and heritage of Yemeni Crown, allowing users to connect with the restaurant on a deeper level.
+  - Gallery Section: Showcases visually appealing images of the restaurant's signature dishes, creating an appetizing visual experience for users.
+  - Join Our Mailing List Section: Encourages user engagement by inviting them to subscribe to the mailing list for updates, promotions, and special offers.
+  - Our Team Section: Introduces the dedicated individuals behind Yemeni Crown, fostering a sense of connection and transparency.
+  - Bootstrap 5 Navigation Bar: Implements a sleek and responsive navigation bar using Bootstrap 5, enhancing the overall user experience.
+  - Gallery Section Implementation: Utilizes the Bootstrap Gallery component, providing an interactive and visually appealing way to display multiple images.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **Challenges Faced:**
+  - Addressed mobile display issues for optimal user experience.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- **Future Features:**
+  - Enhanced user interactivity
+  - Integration of user reviews and feedback
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **Information Structure:**
+  - Clear navigation with distinct sections for Home, About Us, Menu, Reservations, and Contact.
+  - Hierarchical organization for intuitive user flow.
 
-To log into the Heroku toolbelt CLI:
+- **Presentation:**
+  - Utilization of Bootstrap for a responsive and visually appealing design.
+  - Thoughtful color palette reflecting the warmth of Yemen.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- **Look and Feel:**
+  - Cultural aesthetics integrated into the design for an immersive experience.
+  - Consistent design language contributing to a cohesive user journey.
+ 
+## Wireframes
+- [Link to Mobile Wireframes](#)
+- [Link to Tablet Wireframes](#)
+- [Link to Desktop Wireframes](#)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## How to Install and Run the Project
+The Yemeni Crown website is deployed to GitHub Pages. To run the project locally, follow these steps:
+1. Clone the repository: `git clone [repository_url]`
+2. Install dependencies: `npm install`
+3. Run the project: `npm start`
 
----
+## How to Use the Project
+Navigate through the following pages:
 
-Happy coding!
+### Home Page
+1. **Welcome Section:**
+   - Discover the warmth of Yemeni Crown with a welcoming message.
+   - Explore the "Order Online" button to experience the convenience of online ordering.
+
+2. **Why Yemeni Crown Section:**
+   - Dive into the cultural elegance of Yemen, promising a dining experience steeped in heritage and regal charm.
+
+3. **Gallery Section:**
+   - Immerse yourself in the visual delights of Yemeni Crown with our captivating gallery.
+
+4. **Join Our Mailing List Section:**
+   - Stay updated with the latest offerings and promotions by subscribing to our mailing list.
+
+### About Us Page
+1. **About Yemeni Crown Section:**
+   - Learn about the story behind Yemeni Crown and our commitment to cultural excellence.
+
+2. **Our Team Section:**
+   - Meet the passionate individuals behind the scenes who bring Yemeni Crown to life.
+
+### Menu Page
+- Discover the rich variety of Yemeni dishes, each presented with detailed descriptions, prices, and enticing images.
+
+### Reservation Page
+- Experience hassle-free reservations with our easy-to-use reservation system.
+
+### Contact Page
+- Reach out to us through our contact form, and find our location on the map for easy navigation.
+
+
+
