@@ -29,7 +29,7 @@
   </head>
   <body>
 
-<!-- Navigation bar using Bootstrap 5 -->
+    <!-- Navigation bar using Bootstrap 5 -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
       <a class="navbar-brand" height="40">
         <img src="assets/images/logo.png" alt="Logo" height="50" style="margin-left: 15px;" />
@@ -59,10 +59,10 @@
           <li class="nav-item">
             <a class="nav-link " href="menu.html">Menu</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="reservations">Reservations</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
@@ -73,36 +73,48 @@
     </nav>
 
     
-    <!-- Reservations Section -->
-<section class="reservations-section">
-    <div class="container text-center">
-        <h2>Make a Reservation</h2>
-        <p>To help us find the best table for you, select the preferred party size, date, and time of your reservation.
-        </p>
-        <form>
-            <div class="form-group">
-                <label for="partysize">Party Size</label>
-                <select class="form-control" id="partysize">
-                    <option>2 guests</option>
-                    <option>4 guests</option>
-                    <option>6 guests</option>
-                    <option>8 guests</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="reservationDate">Date</label>
-                <input type="date" class="form-control" id="reservationDate">
-            </div>
-            <div class="form-group">
-                <label for="reservationTime">Time</label>
-                <input type="time" class="form-control" id="reservationTime">
-            </div>
-        </form>
-        <button type="submit" class="btn btn-warning btn-rounded">Find a Table</button>
-    </div>
-    
-</section>
+    <!-- Contact Section -->
 
+<section class="contact-section" id="contact">
+    <div class="container text-center">
+        <h2>Contact & Location</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="phone">Phone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Your Phone">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"
+                        placeholder="Type your message here..."></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-warning btn-rounded">Submit</button>
+        </form>
+        <div id="map" class="mt-4 embed-responsive embed-responsive-16by9">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.598791790134!2d-3.160351475360813!3d51.48387831242303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1dd37fed9407%3A0xe6e79b70eb3d7c43!2z2YXYt9i52YUg2KfZhNiq2KfYrCDYp9mE2YrZhdmG2Yo!5e0!3m2!1sar!2suk!4v1700156448998!5m2!1sar!2suk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="embed-responsive-item"></iframe>
+        </div>
+        <p class="mt-3">Yemeni Crown Cardiff<br>3 Meteor St, Cardiff CF24 0HW<br>Monday to Friday 12pm-11pm / Saturday
+            to Sunday 12pm-1am</p>
+           
+            <a href="#top"><i class="fa-solid fa-chevron-up fa-xl go-to-top "></i></a>
+
+    </div>
+</section>
 
     <!-- Footer Section -->
     <footer class="footer">
@@ -125,9 +137,7 @@
       </div>
     </footer>
 
-    
-    <!-- Bootstrap JS Bundle with Popper -->
-
+<!-- Bootstrap JS Bundle with Popper -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha384-GLhlTQ8i8iFZLl5l+RnFI8uqN7IWh/8hFZva9xLELZl/6E5I1kM8AZt8+1zQ1CeB"

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+
 body {
     background-color: #0B0B0B;
     color: #D3A121;
-    font-family: 'Lilita One', cursive;
+    font-family: 'Work Sans', sans-serif;
 
 }
 
@@ -299,7 +302,7 @@ body {
 
 .about-section1 .text {
     color: #FAF4E4;
-    font-size: 1.135em;
+    font-size: 1.06em;
     margin-bottom: 20px;
 }
 
@@ -339,7 +342,7 @@ body {
 
 .about-section2 p {
     color: #FAF4E4;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .about-section2 span {
@@ -360,7 +363,7 @@ body {
 
 .reservations-section {
     text-align: center;
-    padding: 80px 0;
+    padding: 70px 0;
     background-color: #FAF4E4;
     color: #D3A121;
 }
@@ -417,4 +420,91 @@ body {
 .reservations-section .btn:hover {
     background-color: #daaf45;
 
+}
+
+
+/* Contact section */
+
+.contact-section {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #FAF4E4;
+    color: #D3A121;
+}
+
+.contact-section h2 {
+    margin-top: 30px;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #D3A121;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    color: #0B0B0B;
+}
+
+.contact-section form {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-section .form-group {
+    flex: 0 0 48%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-section label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #0B0B0B;
+    text-align: left;
+}
+
+.contact-section .form-control {
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-section textarea {
+    resize: none;
+}
+
+.contact-section .btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #D3A121;
+    color: #0B0B0B;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.contact-section .btn:hover {
+    background-color: #daaf45;
+}
+
+.contact-section #map {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-section #map iframe {
+        max-width: 100%;
+
+    }
 }
