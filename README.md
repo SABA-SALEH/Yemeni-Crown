@@ -58,9 +58,15 @@ In the development of Yemeni Crown, we focused on the following aspects of the 5
   - Consistent design language contributing to a cohesive user journey.
  
 ## Wireframes
+<<<<<<< HEAD
 - [Link to Mobile Wireframes](/workspaces/Yemeni-Crown/documentation/wireframe/phone)
 - [Link to Tablet Wireframes](/workspaces/Yemeni-Crown/documentation/wireframe/tablet)
 - [Link to Desktop Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/blob/main/documentation/wireframe/desktop/Yemeni%20Crown.png)
+=======
+- [Link to Mobile Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/tree/main/documentation/wireframe/phone)
+- [Link to Tablet Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/tree/main/documentation/wireframe/tablet)
+- [Link to Desktop Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/tree/main/documentation/wireframe/desktop)
+>>>>>>> 958d7912453dd13bb97c70aa5b64d2313886691b
 
 ## How to Install and Run the Project
 The Yemeni Crown website is deployed to GitHub Pages. To run the project locally, follow these steps:
