@@ -6,16 +6,12 @@ Welcome to the README for the Yemeni Crown website. This document provides an ov
 
 The Yemeni Crown website is a platform that showcases the restaurant, its menu, and facilitates reservations. This website aims to provide a delightful online experience for users interested in exploring and engaging with Yemeni Crown.
 
-**Technologies Used:**
-- HTML
-- CSS (Bootstrap)
-- JavaScript
 
 ## UX and UI
 
 ### User Experience Design
 
-In the development of Yemeni Crown, we focused on the following aspects of the 5 planes of UX design:
+In the development of Yemeni Crown, I focused on the following aspects of the 5 planes of UX design:
 
 - **Project and Customer Goals:**
   - Business Goal:
@@ -24,6 +20,7 @@ In the development of Yemeni Crown, we focused on the following aspects of the 5
     - As a user, I want to discover authentic Yemeni dishes and learn about their cultural significance.
     - As a customer, I want a simple and efficient reservation process, enhancing my overall dining experience.
     - As a potential customer, I want a straightforward online ordering system to enjoy Yemeni cuisine from the comfort of my home.
+    - As a user, I want a secure and convenient login feature to access personalized services.
 
 - **Features:**
   - Responsive Design: Ensures a seamless experience across various devices, including desktops, tablets, and mobile phones.
@@ -37,6 +34,7 @@ In the development of Yemeni Crown, we focused on the following aspects of the 5
   - Our Team Section: Introduces the dedicated individuals behind Yemeni Crown, fostering a sense of connection and transparency.
   - Bootstrap 5 Navigation Bar: Implements a sleek and responsive navigation bar using Bootstrap 5, enhancing the overall user experience.
   - Gallery Section Implementation: Utilizes the Bootstrap Gallery component, providing an interactive and visually appealing way to display multiple images.
+  - Login Feature: Secure login functionality for users to access personalized services.
 
 - **Challenges Faced:**
   - Addressed mobile display issues for optimal user experience.
@@ -56,25 +54,33 @@ In the development of Yemeni Crown, we focused on the following aspects of the 5
 - **Look and Feel:**
   - Cultural aesthetics integrated into the design for an immersive experience.
   - Consistent design language contributing to a cohesive user journey.
- 
+
+**Technologies Used:**
+- HTML
+- CSS (Bootstrap)
+- JavaScript
+
+
 ## Wireframes
-<<<<<<< HEAD
-- [Link to Mobile Wireframes](/workspaces/Yemeni-Crown/documentation/wireframe/phone)
-- [Link to Tablet Wireframes](/workspaces/Yemeni-Crown/documentation/wireframe/tablet)
-- [Link to Desktop Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/blob/main/documentation/wireframe/desktop/Yemeni%20Crown.png)
-=======
-- [Link to Mobile Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/tree/main/documentation/wireframe/phone)
-- [Link to Tablet Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/tree/main/documentation/wireframe/tablet)
-- [Link to Desktop Wireframes](https://github.com/SABA-SALEH/Yemeni-Crown/tree/main/documentation/wireframe/desktop)
->>>>>>> 958d7912453dd13bb97c70aa5b64d2313886691b
+- **Desktop:**
+![Alt text](documentation/wireframe/desktop/desktop.jpg)
+- **Tablet:**
+![Alt text](documentation/wireframe/tablet/tablet.jpg)
+- **Phone:**
+![Alt text](documentation/wireframe/phone/phone.jpg)
+
 
 ## How to Install and Run the Project
 The Yemeni Crown website is deployed to GitHub Pages. To run the project locally, follow these steps:
-1. Clone the repository: `git clone [repository_url]`
+1. Clone the repository: `git clone https://github.com/SABA-SALEH/Yemeni-Crown`
 2. Install dependencies: `npm install`
 3. Run the project: `npm start`
 
 ## How to Use the Project
+Navigate through the following pages:
+
+## How to Use the Project
+
 Navigate through the following pages:
 
 ### Home Page
@@ -90,6 +96,9 @@ Navigate through the following pages:
 
 4. **Join Our Mailing List Section:**
    - Stay updated with the latest offerings and promotions by subscribing to our mailing list.
+
+5. **Login Button:**
+   - Securely log in to access personalized services and features.
 
 ### About Us Page
 1. **About Yemeni Crown Section:**
@@ -108,4 +117,58 @@ Navigate through the following pages:
 - Reach out to us through our contact form, and find our location on the map for easy navigation.
 
 
+## Deployment
 
+This Yemeni Crown website project was developed using the CodeAnywhere IDE, committed to Git, and pushed to GitHub.
+
+### Deploying to GitHub Pages
+
+To deploy this page to GitHub Pages from its GitHub repository, follow these steps:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select `SABA-SALEH/Yemeni-Crown`.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source**, click the drop-down menu labeled **None** and select **Master Branch**.
+6. After selecting the **Master Branch**, the page is automatically refreshed, and the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+At the moment of submitting this project, the Development Branch and Master Branch are identical.
+
+### How to Run This Project Locally
+
+#### Cloning the Project from GitHub to CodeAnywhere
+
+To clone this project from GitHub to CodeAnywhere:
+
+1. Open your CodeAnywhere IDE.
+2. Create a new container or open an existing one.
+3. In the terminal, type `git clone https://github.com/SABA-SALEH/Yemeni-Crown.git`.
+4. Press Enter. Your CodeAnywhere workspace is now set up with the project code.
+
+#### Running Locally in CodeAnywhere
+
+1. Once the project is cloned, navigate to the project directory.
+2. Open the `index.html` file in the IDE.
+3. Right-click on the file and choose **Preview** to view the project locally in CodeAnywhere.
+
+#### Running Locally in a Local IDE (Optional)
+
+To run this project in a local IDE like Visual Studio Code, PyCharm, etc.:
+
+1. Follow this link to the Project GitHub repository: [Yemeni Crown GitHub Repository](https://github.com/SABA-SALEH/Yemeni-Crown).
+2. Under the repository name, click **Code**.
+3. In the **Clone with HTTPS** section, copy the clone URL for the repository.
+4. In your local IDE, open the terminal.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+## Testing
+
+The Yemeni Crown website underwent thorough testing to ensure a seamless user experience. The testing process included:
+
+- Manual testing on different screen sizes and browsers.
+- Verification of responsiveness.
+- Validation of user stories defined in the UX section.
+- Utilization of online validators for HTML, CSS, and JavaScript.
+- Lighthouse in Chrome DevTools for performance, best practices, and accessibility.
