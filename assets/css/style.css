@@ -42,6 +42,26 @@ body {
     z-index: 1000;
 }
 
+.order-now a {
+    background-color: #D3A121; 
+    color: #0B0B0B; 
+    padding: 10px 20px; 
+    border-radius: 30px; 
+}
+
+.order-now a:hover {
+    background-color: #daaf45;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .order-now a {
+        display: inline-block;
+        max-width: 150px;
+        
+    }
+}
+
 /* Footer */
 
 .footer {
@@ -531,6 +551,7 @@ body {
     margin-top: 20px;
 }
 
+/* Responsive Styles */
 
 @media (max-width: 768px) {
     .contact-section #map iframe {

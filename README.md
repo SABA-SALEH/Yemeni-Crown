@@ -1,10 +1,16 @@
-# Yemeni Crown Website
+![Logo](assets/images/logoreadme.png)
+# Yemeni Crown Website 
 
 Welcome to the README for the Yemeni Crown website. This document provides an overview of the project, its features, and instructions on getting started.
 
 ## Introduction
 
 The Yemeni Crown website is a platform that showcases the restaurant, its menu, and facilitates reservations. This website aims to provide a delightful online experience for users interested in exploring and engaging with Yemeni Crown.
+
+## Screenshot
+![Website Screenshot](documentation/screenshot/screenshot1.png)
+![Website Screenshot](documentation/screenshot/screenshot2.png)
+![Website Screenshot](documentation/screenshot/screenshot3.png)
 
 
 ## UX and UI
@@ -40,8 +46,16 @@ In the development of Yemeni Crown, I focused on the following aspects of the 5 
   - Addressed mobile display issues for optimal user experience.
 
 - **Future Features:**
-  - Enhanced user interactivity
-  - Integration of user reviews and feedback
+  - Enhanced user interactivity.
+  - Integration of user reviews and feedback.
+  - Implement a customer account system for personalized experiences.
+  - Expand the online ordering system to include customization options for dishes.
+  - Integrate a loyalty program to reward frequent customers.
+  - Incorporate social media sharing features to enhance online visibility.
+  - Explore the possibility of real-time chat support for customer inquiries.
+  - Enhance accessibility features for users with disabilities.
+  - Implement a responsive blog section for sharing news, recipes, and restaurant updates.
+  - Integration with popular payment gateways for a seamless online payment experience.
 
 - **Information Structure:**
   - Clear navigation with distinct sections for Home, About Us, Menu, Reservations, and Contact.
@@ -63,11 +77,11 @@ In the development of Yemeni Crown, I focused on the following aspects of the 5 
 
 ## Wireframes
 - **Desktop:**
-![Alt text](documentation/wireframe/desktop/desktop.jpg)
+![Desktop](documentation/wireframe/desktop/desktop.jpg)
 - **Tablet:**
-![Alt text](documentation/wireframe/tablet/tablet.jpg)
+![Tablet](documentation/wireframe/tablet/tablet.jpg)
 - **Phone:**
-![Alt text](documentation/wireframe/phone/phone.jpg)
+![Phone](documentation/wireframe/phone/phone.jpg)
 
 
 ## How to Install and Run the Project
@@ -75,9 +89,6 @@ The Yemeni Crown website is deployed to GitHub Pages. To run the project locally
 1. Clone the repository: `git clone https://github.com/SABA-SALEH/Yemeni-Crown`
 2. Install dependencies: `npm install`
 3. Run the project: `npm start`
-
-## How to Use the Project
-Navigate through the following pages:
 
 ## How to Use the Project
 
@@ -165,10 +176,58 @@ To run this project in a local IDE like Visual Studio Code, PyCharm, etc.:
 
 ## Testing
 
-The Yemeni Crown website underwent thorough testing to ensure a seamless user experience. The testing process included:
+The Yemeni Crown website underwent extensive testing to ensure a robust and user-friendly experience. The testing process included the following steps:
 
-- Manual testing on different screen sizes and browsers.
-- Verification of responsiveness.
-- Validation of user stories defined in the UX section.
-- Utilization of online validators for HTML, CSS, and JavaScript.
-- Lighthouse in Chrome DevTools for performance, best practices, and accessibility.
+### Manual Testing
+- **Cross-browser Testing:** The website was tested on popular browsers such as Chrome, Firefox, Safari, and Edge to ensure compatibility.
+- **Responsive Design Testing:** Manual testing was conducted on various devices, including desktops, tablets, and smartphones, to verify responsiveness.
+- **User Story Validation:** Each user story outlined in the UX section was manually tested to ensure that users could achieve their goals effectively.
+- **Navigation Testing:** All navigation elements, including links and buttons, were thoroughly tested to ensure a seamless browsing experience.
+
+### Automated Testing
+- **Code Validation:** Online validators for HTML, CSS, and JavaScript were used to validate the code against industry standards.
+- **Lighthouse Audit:** Chrome DevTools Lighthouse was employed to assess performance, best practices, accessibility, and SEO, resulting in optimizations.
+
+### Client Stories Testing
+
+The following scenarios were tested to ensure a smooth user experience:
+
+1. **Navigation Testing:**
+   - Users can effortlessly navigate the site from the home page to the About Us, Menu, Reservations, and Contact sections.
+   - Call-to-action buttons, including "Order Online," guide users seamlessly through different pages.
+
+2. **About Us Page Testing:**
+   - The About Us page provides concise and engaging information about Yemeni Crown, its history, and cultural significance.
+   - Users can easily find the team section to learn about the passionate individuals behind Yemeni Crown.
+
+3. **Menu Page Testing:**
+   - Users can access the menu page from the home page to explore the rich variety of Yemeni dishes.
+   - Each menu item is presented with detailed descriptions, prices, and enticing images.
+
+4. **Reservation Page Testing:**
+   - The reservation page offers a user-friendly form for hassle-free table reservations.
+   - Users can conveniently select preferred date, time, and party size.
+
+5. **Contact Page Testing:**
+   - Users can reach out to Yemeni Crown through the contact form on the Contact page.
+   - Location information and an interactive map are provided for easy navigation.
+
+6. **Order Online Button Testing:**
+   - The "Order Online" button on the home page directs users to a seamless online ordering system.
+
+7. **Login Feature Testing:**
+   - The login feature securely allows registered users to access personalized services, enhancing their overall experience.
+
+These tests were conducted to ensure that the Yemeni Crown website meets high standards for usability, performance, and reliability.
+
+## Credits
+- Gallery images sourced from [Freepik](https://www.freepik.com/)
+- Login popup script inspired by [CodePal](https://codepal.ai/live-webpage-generator/query/eAwuGTHS/html-css-javascript-login-button)
+- Project developed by SABA SALEH
+- Logo sourced from [PNGTree](https://www.pngtree.com/)
+- Navigation bar built with [Bootstrap 5](https://getbootstrap.com/)
+- Gallery section inspired by [MDBootstrap](https://mdbootstrap.com/docs/standard/extended/gallery/)
+
+
+## Contributing
+If you'd like to contribute to the Yemeni Crown website, feel free to fork the repository and submit a pull request. For bug reports or feature requests, please open an issue on the GitHub repository.
