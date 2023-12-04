@@ -128,6 +128,13 @@ body {
 
 }
 
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .section1 h2 {
+        font-size: 2em;
+    }
+}
+
 
 /* Section 2: Why Yemeni Crown ? */
 
