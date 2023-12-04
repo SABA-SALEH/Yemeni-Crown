@@ -171,6 +171,13 @@ body {
     margin-bottom: 5px;
 }
 
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .section2 h2 {
+        font-size: 2em;
+    }
+}
+
 
 /* Section 3 : Gallery*/
 
@@ -186,6 +193,14 @@ body {
     text-transform: uppercase;
     color: #0B0B0B;
 }
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .section3 h2 {
+        font-size: 2em;
+    }
+}
+
 
 /* Section 4:Join Our Mailing List */
 
@@ -224,6 +239,13 @@ body {
 .section4 .btn:hover {
     background-color: #daaf45;
 
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+    .section4 h2 {
+        font-size: 2em;
+    }
 }
 
 /* go to top */
@@ -321,6 +343,9 @@ body {
     .price {
         font-size: 0.8em;
     }
+    .section-heading {
+        font-size: 2em;
+    }
 }
 
 
@@ -350,6 +375,7 @@ body {
     color: #FAF4E4;
     font-size: 1.06em;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 /* Our Team Section */
@@ -397,9 +423,31 @@ body {
 }
 
 /* Responsive Styles */
+@media (max-width: 576px) {
+    .about-section2 h2 {
+        font-size: 2em;
+    }
+
+    .about-section1 .title {
+        font-size: 2em;
+    }
+
+    .about-section1 .text {
+        font-size: 1em;
+    }
+}
 @media (max-width: 768px) {
     .about-section2 .col-md-4 {
         margin-bottom: 10px;
+  
+}
+}
+
+@media (max-width: 992px) and (min-width: 576px) {
+  
+    .about-section1 img {
+        min-height: 70%;
+    
     }
 }
 
@@ -410,7 +458,6 @@ body {
         max-width: 600px;
         margin: 20px auto;
     }
-
 
     .about-section2 h4 {
         font-size: 1.2em;
@@ -489,7 +536,7 @@ body {
 @media (max-width:  768px) {
 
     .reservations-section h2 {
-       font-size: 2.5em;
+       font-size: 2em;
     }
 }
 
@@ -577,6 +624,10 @@ body {
     .contact-section #map iframe {
         width: 100%;
 
+    }
+
+    .contact-section h2 {
+        font-size: 2em;
     }
 }
 
