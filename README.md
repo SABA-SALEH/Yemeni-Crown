@@ -220,6 +220,93 @@ The following scenarios were tested to ensure a smooth user experience:
 
 These tests were conducted to ensure that the Yemeni Crown website meets high standards for usability, performance, and reliability.
 
+## Bugs and Fixes
+
+### Navigation Bar on Small Screens
+
+#### Issue:
+In the earlier stages of development, I encountered a challenge related to the navigation bar's responsiveness, particularly on smaller screens. The collapsible menu was not functioning correctly, leading to accessibility issues and an inconsistent user experience.
+
+#### Troubleshooting Steps
+I followed a systematic approach to identify and resolve the issue:
+
+1. **Code Review:** Carefully reviewed the HTML and CSS related to the navigation bar, checking for any syntax errors or misconfigurations.
+2. **Bootstrap Documentation:** Consulted the Bootstrap documentation specifically related to the navbar and collapsible behavior to ensure alignment with best practices.
+3. **Browser DevTools:** Utilized browser developer tools to inspect the rendered HTML and CSS, identifying any unexpected behavior or conflicts.
+
+
+#### Solution:
+Adjusted the Bootstrap navigation bar breakpoint and added custom CSS to ensure a responsive and user-friendly navigation experience on smaller devices.
+
+```html
+<!-- Updated Bootstrap Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+      <a class="navbar-brand"  href="index.html">
+      <img src="assets/images/logo.png" alt="Logo"  style="margin-left: 15px; height:50px"/>
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+  <!-- Navbar content -->
+  <!-- ... -->
+</nav>
+```
+
+```css
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .order-now a {
+        display: inline-block;
+        max-width: 150px;
+        margin-bottom: 10px;
+        
+    }
+}
+
+```
+
+### Responsive Cards in "Why Yemeni Crown" & "Our Team" Sections
+
+#### Issue:
+While working on the "Why Yemeni Crown" and "Our Team" sections, I observed that the cards were not responsive enough. On smaller screens, the content was either getting cut off or not displaying correctly, affecting the overall visual appeal and user experience.
+
+### Solution:
+Implemented adjustments to the card styles and structure to enhance responsiveness on smaller screens. Utilized Bootstrap utility classes and custom CSS to ensure optimal display across a range of devices.
+
+```css
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-section2 .col-md-4 {
+        margin-bottom: 10px;}
+}
+
+@media (max-width: 992px) {
+
+    .about-section2 .card {
+        padding: 20px;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+
+    .about-section2 h4 {
+        font-size: 1.2em;
+    }
+
+    .about-section2 p {
+        font-size: 0.8em;
+    }
+}
+```
+
 ## Credits
 - Gallery images sourced from [Freepik](https://www.freepik.com/)
 - Login popup script inspired by [CodePal](https://codepal.ai/live-webpage-generator/query/eAwuGTHS/html-css-javascript-login-button)
