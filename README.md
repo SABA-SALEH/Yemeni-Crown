@@ -279,7 +279,7 @@ Adjusted the Bootstrap navigation bar breakpoint and added custom CSS to ensure 
 #### Issue:
 While working on the "Why Yemeni Crown" and "Our Team" sections, I observed that the cards were not responsive enough. On smaller screens, the content was either getting cut off or not displaying correctly, affecting the overall visual appeal and user experience.
 
-### Solution:
+#### Solution:
 Implemented adjustments to the card styles and structure to enhance responsiveness on smaller screens. Utilized Bootstrap utility classes and custom CSS to ensure optimal display across a range of devices.
 
 ```css
