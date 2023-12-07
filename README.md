@@ -315,7 +315,8 @@ Implemented adjustments to the card styles and structure to enhance responsivene
 - Gallery images sourced from [Freepik](https://www.freepik.com/)
 - Login popup script inspired by [CodePal](https://codepal.ai/live-webpage-generator/query/eAwuGTHS/html-css-javascript-login-button)
 - Project developed by SABA SALEH
-- Logo sourced from [PNGTree](https://www.pngtree.com/)
+- Logo designed using [Canva](https://www.canva.com/)
+
 - Navigation bar built with [Bootstrap 5](https://getbootstrap.com/)
 - Gallery section inspired by [MDBootstrap](https://mdbootstrap.com/docs/standard/extended/gallery/)
 
