@@ -23,24 +23,34 @@ In the development of Yemeni Crown, I focused on the following aspects of the 5 
   - Business Goal:
     - Establish an online presence to attract a wider audience and increase brand visibility for Yemeni Crown.
   - User Stories:
-    - As a user, I want to discover authentic Yemeni dishes and learn about their cultural significance.
+    - As a user, I want to easily navigate through the online platform of Yemeni Crown, exploring its visually appealing content, and gaining insights into the restaurant's unique ambiance and offerings. This will allow me to make informed decisions about planning a visit and experiencing the authenticity of Yemeni cuisine.
     - As a customer, I want a simple and efficient reservation process, enhancing my overall dining experience.
-    - As a potential customer, I want a straightforward online ordering system to enjoy Yemeni cuisine from the comfort of my home.
     - As a user, I want a secure and convenient login feature to access personalized services.
 
 - **Features:**
   - Responsive Design: Ensures a seamless experience across various devices, including desktops, tablets, and mobile phones.
+  - Welcome Section: Engages visitors with a welcoming home page featuring an "Menu" button,which creates a seamless pathway for users to access the menu.
+  ![Welcome Section](documentation/screenshot/welcome.png)
+  ![Why Yemeni Crown Section](documentation/screenshot/why.png)
   - Menu Display: Showcases the restaurant's diverse menu with high-quality images, detailed descriptions, and prices for each dish.
+  ![Menu](documentation/screenshot/menu.png)
   - Reservation Form: Allows users to conveniently make reservations online, providing a user-friendly interface to select preferred date, time, and number of guests.
+  ![Reservation Form](documentation/screenshot/reservation.png)
   - Contact and Location: Offers detailed contact information, including a contact form for inquiries, and displays the restaurant's location on an interactive map for easy navigation.
-  - Welcome Section: Engages visitors with a welcoming home page featuring an "Order Online" button, creating a smooth pathway for online orders.
+  ![Contact Form](documentation/screenshot/contact.png)
+  ![Location](documentation/screenshot/map.png)
   - About Yemeni Crown: Provides insights into the rich history and heritage of Yemeni Crown, allowing users to connect with the restaurant on a deeper level.
+  ![About Yemeni Crown](documentation/screenshot/about.png)
   - Gallery Section: Showcases visually appealing images of the restaurant's signature dishes, creating an appetizing visual experience for users.
+  ![Gallery Section](documentation/screenshot/gallery.png)
   - Join Our Mailing List Section: Encourages user engagement by inviting them to subscribe to the mailing list for updates, promotions, and special offers.
+  ![ Join Our Mailing List Section](documentation/screenshot/join.png)
   - Our Team Section: Introduces the dedicated individuals behind Yemeni Crown, fostering a sense of connection and transparency.
+  ![ Our Team Section](documentation/screenshot/team.png)
   - Bootstrap 5 Navigation Bar: Implements a sleek and responsive navigation bar using Bootstrap 5, enhancing the overall user experience.
-  - Gallery Section Implementation: Utilizes the Bootstrap Gallery component, providing an interactive and visually appealing way to display multiple images.
+  ![Navigation Bar](documentation/screenshot/nav.png)
   - Login Feature: Secure login functionality for users to access personalized services.
+  ![Login](documentation/screenshot/login.png)
 
 - **Challenges Faced:**
   - Addressed mobile display issues for optimal user experience.
@@ -49,7 +59,7 @@ In the development of Yemeni Crown, I focused on the following aspects of the 5 
   - Enhanced user interactivity.
   - Integration of user reviews and feedback.
   - Implement a customer account system for personalized experiences.
-  - Expand the online ordering system to include customization options for dishes.
+  - Implement an online ordering system.
   - Integrate a loyalty program to reward frequent customers.
   - Incorporate social media sharing features to enhance online visibility.
   - Explore the possibility of real-time chat support for customer inquiries.
@@ -97,7 +107,7 @@ Navigate through the following pages:
 ### Home Page
 1. **Welcome Section:**
    - Discover the warmth of Yemeni Crown with a welcoming message.
-   - Explore the "Order Online" button to experience the convenience of online ordering.
+   - Click the "Menu" button to discover the delightful flavors awaiting you on our dedicated menu page.
 
 2. **Why Yemeni Crown Section:**
    - Dive into the cultural elegance of Yemen, promising a dining experience steeped in heritage and regal charm.
@@ -193,8 +203,8 @@ The Yemeni Crown website underwent extensive testing to ensure a robust and user
 The following scenarios were tested to ensure a smooth user experience:
 
 1. **Navigation Testing:**
-   - Users can effortlessly navigate the site from the home page to the About Us, Menu, Reservations, and Contact sections.
-   - Call-to-action buttons, including "Order Online," guide users seamlessly through different pages.
+   - Users can effortlessly navigate the site from the home page to the About Us, Menu, Reservations, Contact  and Login pages.
+   - The "Menu" button on the home page directs users to the menu page.
 
 2. **About Us Page Testing:**
    - The About Us page provides concise and engaging information about Yemeni Crown, its history, and cultural significance.
@@ -212,10 +222,7 @@ The following scenarios were tested to ensure a smooth user experience:
    - Users can reach out to Yemeni Crown through the contact form on the Contact page.
    - Location information and an interactive map are provided for easy navigation.
 
-6. **Order Online Button Testing:**
-   - The "Order Online" button on the home page directs users to a seamless online ordering system.
-
-7. **Login Feature Testing:**
+6. **Login Feature Testing:**
    - The login feature securely allows registered users to access personalized services, enhancing their overall experience.
 
 These tests were conducted to ensure that the Yemeni Crown website meets high standards for usability, performance, and reliability.
@@ -262,14 +269,11 @@ Adjusted the Bootstrap navigation bar breakpoint and added custom CSS to ensure 
 ```
 
 ```css
-/* Responsive Styles */
-@media (max-width: 991px) {
-    .order-now a {
-        display: inline-block;
-        max-width: 150px;
-        margin-bottom: 10px;
-        
-    }
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 ```

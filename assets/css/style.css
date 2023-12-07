@@ -12,7 +12,13 @@ body {
 
 .navbar {
     background-color: #0B0B0B;
+    
     margin-bottom: 300px;
+}
+
+.navbar-brand .logo {
+    margin-left: 15px;
+    height: 50px;
 }
 
 .navbar-nav a {
@@ -31,37 +37,11 @@ body {
     color: #FAF4E4;
 }
 
+
 .navbar-brand {
     color: #FAF4E4;
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.order-now a {
-    background-color: #D3A121; 
-    color: #0B0B0B; 
-    padding: 10px 20px; 
-    border-radius: 30px; 
-}
-
-.order-now a:hover {
-    background-color: #daaf45;
-}
-
-/* Responsive Styles */
-@media (max-width: 991px) {
-    .order-now a {
-        display: inline-block;
-        max-width: 150px;
-        margin-bottom: 10px;
-        
-    }
-}
 
 /* Footer */
 
@@ -97,6 +77,11 @@ body {
     padding: 5px 0;
     min-height: 500px;
     margin-top: 56px;
+    background-image: url('../images/section1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 
 }
 
@@ -159,7 +144,7 @@ body {
     color: #0B0B0B;
 }
 
-.section2 .cards {
+.section2 .card {
     background-color: #FAF4E4;
     margin: 20px;
     padding: 30px;
@@ -169,6 +154,7 @@ body {
 .section2 i {
     color: #D3A121;
     margin-bottom: 5px;
+    font-size: 2em;
 }
 
 /* Responsive Styles */
@@ -248,15 +234,7 @@ body {
     }
 }
 
-/* go to top */
 
-.go-to-top {
-
-    color: #0B0B0B;
-    margin-top: 40px;
-    margin-bottom: 5px;
-
-}
 
 /* Menu Page ............................................. */
 
@@ -355,6 +333,7 @@ body {
 /* About Yemeni Crown Restaurant Section */
 .about-section1 {
     padding: 60px 0;
+    background-color: #0B0B0B;
 
 }
 
@@ -656,3 +635,13 @@ body {
     width: 95%; 
 }
 
+
+/* go to top */
+
+.go-to-top {
+
+    color: #0B0B0B;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
