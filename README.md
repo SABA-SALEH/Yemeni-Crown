@@ -191,6 +191,7 @@ The Yemeni Crown website underwent extensive testing to ensure a robust and user
 ### Manual Testing
 - **Cross-browser Testing:** The website was tested on popular browsers such as Chrome, Firefox, Safari, and Edge to ensure compatibility.
 - **Responsive Design Testing:** Manual testing was conducted on various devices, including desktops, tablets, and smartphones, to verify responsiveness.
+  ![Website Screenshot](documentation/screenshot/screenshot1.png)
 - **User Story Validation:** Each user story outlined in the UX section was manually tested to ensure that users could achieve their goals effectively.
 - **Navigation Testing:** All navigation elements, including links and buttons, were thoroughly tested to ensure a seamless browsing experience.
 
