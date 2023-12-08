@@ -196,7 +196,15 @@ The Yemeni Crown website underwent extensive testing to ensure a robust and user
 
 ### Automated Testing
 - **Code Validation:** Online validators for HTML, CSS, and JavaScript were used to validate the code against industry standards.
+![HTML Validation](documentation/screenshot/htmlvalidation.png)
+![CSS Validation](documentation/screenshot/cssvalidation.png)
+The errors and  warnings are originating from Bootstrap 5. 
 - **Lighthouse Audit:** Chrome DevTools Lighthouse was employed to assess performance, best practices, accessibility, and SEO, resulting in optimizations.
+
+ ![Lighthouse](documentation/screenshot/lighthouse1.png)
+ ![Lighthouse](documentation/screenshot/lighthouse2.png)
+ ![Lighthouse](documentation/screenshot/lighthouse3.png)
+
 
 ### Client Stories Testing
 
