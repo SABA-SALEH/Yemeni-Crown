@@ -277,16 +277,6 @@ Adjusted the Bootstrap navigation bar breakpoint and added custom CSS to ensure 
 </nav>
 ```
 
-```css
-.fixed-top {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-```
-
 ### Responsive Cards in "Why Yemeni Crown" & "Our Team" Sections
 
 #### Issue:
