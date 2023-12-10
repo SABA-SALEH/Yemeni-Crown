@@ -325,7 +325,7 @@ Implemented adjustments to the card styles and structure to enhance responsivene
 - Login popup script inspired by [CodePal](https://codepal.ai/live-webpage-generator/query/eAwuGTHS/html-css-javascript-login-button)
 - Project developed by SABA SALEH
 - Logo designed using [Canva](https://www.canva.com/)
-
+- Optimize images using [Image Optimizer](http://www.imageoptimizer.net/)
 - Navigation bar built with [Bootstrap 5](https://getbootstrap.com/)
 - Gallery section inspired by [MDBootstrap](https://mdbootstrap.com/docs/standard/extended/gallery/)
 

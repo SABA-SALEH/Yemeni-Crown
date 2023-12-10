@@ -11,6 +11,9 @@
     <script src="https://kit.fontawesome.com/45b8f34d90.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"> </script>
+    <script src="assets/js/script.js"></script>
     
     <title>Yemeni Crown</title>
   </head>
@@ -166,8 +169,6 @@
                         </div>
                         <button type="submit" class="btn btn-warning btn-rounded">Subscribe Now</button>
                     </form>
-                   
-
                 </div>
                 <a href="#top"><i class="fa-solid fa-chevron-up fa-xl go-to-top "></i></a>
             </div>
@@ -176,7 +177,6 @@
 
     
 <!-- Footer Section -->
-    
 <footer class="footer">
     <div class="container text-center">
       <p>&copy; 2023 by Yemeni Crown. Design by Saba Saleh.</p>
@@ -202,12 +202,10 @@
                         <div class="form-group">
                             <label for="password">Password:</label>
                             <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
-                            
                         </div>
                         <br>
                         <p ><a href="#!" class="text-black-50" target="_blank">Forgot password?</a></p>
                         <button type="submit" class="btn btn-dark">Login</button>
-
                         <div class=" justify-content-center text-center">
                             <a href="https://en-gb.facebook.com/" target="_blank" class="text-black"><i class="fab fa-facebook-f fa-lg"></i></a>
                             <a href="https://twitter.com/" target="_blank" class="text-black"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
@@ -222,37 +220,11 @@
                 </div>
             </div>
                       
-            
-
     <!-- Bootstrap -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous">
-    </script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
       crossorigin="anonymous">
     </script>
 
-<!-- Login Script inspired by Codepal https://codepal.ai/live-webpage-generator/query/eAwuGTHS/html-css-javascript-login-button-->
-    <script>
-        function openLoginPopup() {
-            $('#loginPopup').fadeIn();
-        }
- 
-        function closeLoginPopup() {
-            $('#loginPopup').fadeOut();
-            document.getElementById("loginPopup").style.display = "none";
-        }
- 
-        $(document).ready(function() {
-            $('#loginForm').submit(function(e) {
-                e.preventDefault();
-                alert('Login successful! Redirecting to Home page.');
-                window.location.href = "index.html";
-            });
-        });
-
-    </script>
 </body>
 </html>
